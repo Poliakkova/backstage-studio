@@ -1,0 +1,61 @@
+
+.button-section{
+    background: #1F1F1F;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.button-section-content{
+    text-align: center;
+
+}
+
+.button-section h4{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.big-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    border: 3px solid #FFFFFF;
+    display: inline-block;
+}
+
+.big-button:hover{
+    border: 3px solid #C44900;
+    color: #C44900;
+}
+
+.button-group p{
+    font-size: 14px;
+    margin-top: 19px;
+}
+
+
+
+@media (max-width: 768px) {
+    .big-button{
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .button-section h4 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .button-group p {
+        font-size: 12px;
+    }
+    .button-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
