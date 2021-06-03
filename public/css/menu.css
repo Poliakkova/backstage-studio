@@ -195,9 +195,14 @@ body.lock{
     padding: 0;
 }
 
+.popup-image{
+    width: 600px;
+}
+
 .popup-image img{
     min-height: 633px;
     vertical-align: top;
+    width: 100%;
 }
 
 .form{
@@ -317,6 +322,9 @@ body.lock{
     .list1 {
         margin-right: 100px;
     }
+    .popup-image{
+        width: 500px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -418,6 +426,15 @@ body.lock{
     .popup-content {
         padding: 60px 60px;
     }
+    .popup-content-image {
+        padding: 0;
+    }
+    .popup-image{
+        width: 400px;
+    }
+    .popup-image img {
+        min-height: auto;
+    }
     .up{
         left: 20px;
     }
@@ -453,8 +470,14 @@ body.lock{
     .popup-content {
         padding: 60px 50px;
     }
+    .popup-content-image {
+        padding: 0;
+    }
     .input, .submit {
         padding: 15px 20px;
         font-size: 14px;
+    }
+    .popup-image{
+        width: 100%;
     }
 }
