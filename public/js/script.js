@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.burger, .menu, .burger-background').click(function (event) {
+    $('.burger, .burger-background').click(function (event) {
         $('.burger, .menu, .burger-background').toggleClass('active');
     });
 });
