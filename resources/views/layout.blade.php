@@ -56,9 +56,9 @@
                 <a href="#" class="popup-close close-popup" ></a>
                 <form class="form" name="form" action="{{ route('contact-form') }}" method="post">
                     @csrf
-                    <input class="input" id="name" name="name" type="text" placeholder="Ваше имя">
-                    <input class="input" id="email" name="email" type="text" placeholder="Ваша почта">
-                    <input class="input" id="phone" name="phone" type="text" placeholder="Ваш номер телефона">
+                    <input required class="input" id="name" name="name" type="text" placeholder="Ваше имя">
+                    <input required class="input" id="email" name="email" type="email" placeholder="Ваша почта">
+                    <input required class="input" id="phone" name="phone" type="number" placeholder="Ваш номер телефона">
                     <button class="submit popup-link" type="submit" value="Отправить">Перезвоните мне</button>
                 </form>
             </div>
